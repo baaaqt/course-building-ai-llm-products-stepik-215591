@@ -1,0 +1,12 @@
+[project]
+name = "building-ai-llm-products-stepik-215591"
+version = "0.1.0"
+description = "Project for the Stepik course https://stepik.org/course/215591"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[tool.uv.workspace]
+members = ["git"]
